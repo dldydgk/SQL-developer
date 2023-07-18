@@ -24,14 +24,14 @@ create table grade_table(
 idx NUMBER(10) not null,
 num NUMBER(5) not null,
 name VARCHAR2(20) not null,
-sub1 VARCHAR2(10) not null,
-score1 NUMBER(10) not null,
-sub2 VARCHAR2(10) not null,
-score2 NUMBER(10) not null,
-sub3 VARCHAR2(10) not null,
-score3 NUMBER(10) not null,
-total NUMBER(10) not null,
-avg NUMBER(10) not null
+sub1 VARCHAR2(20) not null,
+score1 NUMBER(3) not null,
+sub2 VARCHAR2(20) not null,
+score2 NUMBER(3) not null,
+sub3 VARCHAR2(20) not null,
+score3 NUMBER(3) not null,
+total NUMBER(3) not null,
+avg NUMBER(3) not null
 );
 DROP table grade_table;
 
